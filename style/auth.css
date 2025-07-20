@@ -1,0 +1,182 @@
+@import url(./style.css);
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/bg\ login\ biru.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    width: 306px;
+    height: 480px;
+    border-radius: 8px;
+    padding: 24px;
+    background: rgba(24, 26, 28, 0.84);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 94px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+.header-title{
+    text-align: center;
+    color: white;
+}
+
+.form-container{
+    color: white;
+}
+
+.header-title h1{
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.header-title p{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-input:first-child{
+    margin-bottom: 20px;
+}
+
+.form-input:last-child{
+    margin-bottom: 7px;
+}
+
+.form-input label{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+}
+
+.form-input input{
+    width: 260px;
+    height: 28px;
+    border-radius: 12px;
+    padding-top: 8.09px;
+    padding-bottom: 8.09px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 16px;
+    background: transparent;
+    border: 0.58px solid rgba(231, 227, 252, 0.23);
+    color: white;
+    font-weight: 400;
+    font-size: 9.24px;
+    line-height: 140%;
+    letter-spacing: 0.12px;
+}
+
+.form-additional-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.form-additional-info p{
+    color: inherit;
+}
+
+.form-additional-info p > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-additional-info p > a:hover{
+    text-decoration: underline;
+}
+
+#register{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+#register:hover{
+    text-decoration: underline;
+}
+
+.form-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.form-action button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+    border: 0.58px solid rgba(231, 227, 252, 0.23);
+    width: 258px;
+    height: 30.17px;
+    border-radius: 14px;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+
+}
+
+.form-action button:hover{
+    background-color: rgba(61, 65, 66, 1);
+}
+
+.form-action p{
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: rgba(193, 194, 196, 1);
+    text-align: center;
+}
+
+#masuk{
+    background-color: rgba(61, 65, 66, 1);
+}
+

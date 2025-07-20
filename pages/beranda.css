@@ -1,0 +1,95 @@
+@import url(../style/style.css);
+
+.body{
+    background-color: rgba(24, 26, 28, 1);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 6px;
+}
+.menu{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 123px;
+    color: white;
+}
+.avatar{
+    display: flex;
+    margin-right: 4px;
+}
+.banner{
+    width: 100%;
+    height: 225px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(16, 18, 19, 0.86),rgba(24, 26, 28, 1)), url('../img/duty\ after\ school.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-banner{
+    padding-top: 67px;
+    padding-bottom: 8px;
+    padding-left: 22px;
+    padding-right: 18px;
+    color: white;
+}
+.content-banner h1{
+    width: 200px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    margin-bottom: 12px;
+}
+.content-banner p{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 78px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+.action-banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 20px;
+}
+#Mulai{
+    width: 55px;
+    height: 25px;
+    border-radius: 48px;
+    margin-right: 8px;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    background-color: rgba(15, 30, 147, 1);
+    border: 0px;
+    cursor: pointer;
+}
+#Selengkapnya{
+    width: 120px;
+    height: 25px;
+    border-radius: 48px;
+    background-color: rgba(34, 40, 42, 1);
+    border: 0px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
